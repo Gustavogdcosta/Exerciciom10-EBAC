@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+.container  {
+    max-width: 1024px;
+    margin: 0 80px;
+}
+
+header{
+    background-color: rgb(6, 105, 105);
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input {
+    width: 300px;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    height: 24px;
+}
+
+button  {
+    padding: 10px 20px;
+    background-color: rgb(44, 212, 212); 
+    border: 2px solid rgb(119, 119, 119);
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
